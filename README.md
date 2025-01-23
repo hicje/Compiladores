@@ -6,7 +6,7 @@ Descrição:<br/>
 - Ferramenta que gera um analisador sintático (parser) a partir de uma gramática formal.<br/>
 ## Objetivo:<br/>
 - Implementar um parser capaz de reconhecer construções específicas de uma linguagem hipotética(Semelhante ao C).<br/>
-Fluxo:<br/>
+## Fluxo:<br/>
 - Lex realiza a análise léxica.<br/>
 - Yacc utiliza as regras gramaticais definidas em um arquivo .y para gerar o analisador sintático.<br/>
 - O código gerado é compilado junto com as demais partes do projeto, resultando em um executável capaz de ler um arquivo de código-fonte e verificar se ele está sintaticamente correto.<br/>
