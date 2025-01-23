@@ -1,0 +1,4 @@
+yacc -d parser.y
+lex lexer.l
+gcc parser.tab.c lex.yy.c tokens.c
+a.exe

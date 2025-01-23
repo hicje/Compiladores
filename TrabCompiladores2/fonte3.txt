@@ -1,0 +1,15 @@
+#include "stdio.h"
+
+int main() {
+    int 9var = 5;         // Erro léxico: Identificador começando com dígito
+    float num@ber = 3.14; // Erro léxico: Caractere inválido '@' em identificador
+    char c = 'xy';        // Erro léxico: Constante de caractere com mais de um caractere
+
+    if (a > 0) {
+        printf("A is positive\n");
+    } else {
+        printf("A is not positive\n");
+    }
+
+    return 0;
+}
